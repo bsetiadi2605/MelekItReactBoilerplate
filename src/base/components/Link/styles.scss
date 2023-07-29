@@ -1,0 +1,14 @@
+@import '../../constant/styles.scss';
+
+a {
+    color: $primary-color;
+
+    &:hover {
+        color: $primari-color-light;
+    }
+
+    &:active {
+        color: $primary-color-dark;
+    }
+
+}
